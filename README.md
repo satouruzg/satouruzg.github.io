@@ -2,6 +2,11 @@
 -----
 draw.ioをAlibaba Cloudに対応させたものです。  
 
+ライセンス
+-----
+このツールは[draw.io](https://github.com/jgraph/drawio)を元に作成されています。  
+ライセンスは[Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)に準拠します。
+
 使い方
 -----
 - [Github Page](https://satouruzg.github.io/src/main/webapp/index.html)にアクセス
