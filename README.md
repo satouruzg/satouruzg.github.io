@@ -1,30 +1,24 @@
-[![Build Status](https://travis-ci.org/jgraph/drawio.svg?branch=master)](https://travis-ci.org/jgraph/drawio)
-
-About
+概要
 -----
-[draw.io](https://www.draw.io) is an online diagramming web site that delivers the source in this project.
+draw.ioをAlibaba Cloudに対応させたものです。  
 
-draw.io uses the [mxGraph library](https://github.com/jgraph/mxgraph) as the base of the stack, with the [GraphEditor example](https://github.com/jgraph/mxgraph/tree/master/javascript/examples/grapheditor) from mxGraph as the base of the application part. The mxGraph library build used is stored under /etc/mxgraph/mxClient.js.
+使い方
+-----
+- [Github Page](https://satouruzg.github.io/src/main/webapp/index.html)にアクセス
+- 「Create New Diagram」を選択
+- 「Cloud」カテゴリより、Alibaba Cloudのテンプレートを選択  
+例）aliyun_basic_web.xml
+- 「Create」ボタンを押下
+- 左側のメニューにAlibaba Cloudのアイコンが表示されるので、Let's draw!!
 
-License
+注意点
+-----
+カスタムライブラリを読み込む方法を取っているので、「Open Existing Diagram」からではAlibaba Cloudのアイコンは出ません。  
+また、「＋ More Shapes...」から読み込むことも出来ません。  
+テンプレートを使用ない場合は、空のテンプレート（aliyun_blank_template.xml）を選択してください。
+
+参考
 -------
-draw.io is licensed under the Apache v2.
-
-Development
------------
-
-A development guide is being started on the GitHub project wiki. There is a [draw.io](http://stackoverflow.com/questions/tagged/draw.io) tag on Stack Overflow currently, please make sure any questions adhere to their guidelines for question.
-
-The [mxGraph documentation](https://jgraph.github.io/mxgraph/) provides a lot of the docs for the bottom part of the stack. There is an [mxgraph tag on SO](http://stackoverflow.com/questions/tagged/mxgraph).
-
-Running
--------
-One way to run draw.io is to fork this project, [publish the master branch to GitHub pages](https://help.github.com/categories/github-pages-basics/) and the [pages sites](https://jgraph.github.io/drawio/src/main/webapp/index.html) will have the full editor functionality (sans the integrations).
-
-Another way is to use [the recommended Docker project](https://github.com/fjudith/docker-draw.io) or to download [draw.io Desktop](https://get.draw.io).
-
-The full packaged .war of the client and servlets is built when the project is tagged and available on the [releases page](https://github.com/jgraph/draw.io/releases).
-
-Supported Browsers
-------------------
-draw.io supports IE 11, Chrome 32+, Firefox 38+, Safari 9.1.x, 10.1.x and 11.0.x, Opera 20+, Native Android browser 5.1.x+, the default browser in the current and previous major iOS versions (e.g. 11.2.x and 10.3.x) and Edge 23+.
+- 元のソース（draw.io）:https://github.com/jgraph/drawio
+- icon素材：https://www.iconfont.cn/plus/user/detail?&uid=41718
+- 参考サイト：https://qiita.com/ohiro18/items/02c5da6d6590dfe3ed0d
