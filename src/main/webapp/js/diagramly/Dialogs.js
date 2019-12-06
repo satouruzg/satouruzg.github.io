@@ -309,15 +309,15 @@ var StorageDialog = function(editorUi, fn, rowLimit)
 	{
 		count = 0;
 		
-		if (typeof window.DriveClient === 'function')
-		{
-			addLogo(IMAGE_PATH + '/google-drive-logo.svg', mxResources.get('googleDrive'), App.MODE_GOOGLE, 'drive');
-		}
+//		if (typeof window.DriveClient === 'function')
+//		{
+//			addLogo(IMAGE_PATH + '/google-drive-logo.svg', mxResources.get('googleDrive'), App.MODE_GOOGLE, 'drive');
+//		}
 	
-		if (typeof window.OneDriveClient === 'function')
-		{
-			addLogo(IMAGE_PATH + '/onedrive-logo.svg', mxResources.get('oneDrive'), App.MODE_ONEDRIVE, 'oneDrive');
-		}
+//		if (typeof window.OneDriveClient === 'function')
+//		{
+//			addLogo(IMAGE_PATH + '/onedrive-logo.svg', mxResources.get('oneDrive'), App.MODE_ONEDRIVE, 'oneDrive');
+//		}
 	
 		addLogo(IMAGE_PATH + '/osa_drive-harddisk.png', mxResources.get('device'), App.MODE_DEVICE);
 		
